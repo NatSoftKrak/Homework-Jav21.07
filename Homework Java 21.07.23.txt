@@ -1,0 +1,28 @@
+2.    import java.util.Scanner;
+
+     public class Main {
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter your number: ");
+        int number = scanner.nextInt();
+        int squareNumber = number * number;
+        System.out.println("Square of entered number is: " + squareNumber);
+        System.out.println("Are you 40 years old?");
+        boolean text = scanner.hasNextBoolean();
+        System.out.println("You are 40 years old:" + text);
+        String word = scanner.next();
+        System.out.println("What is your name? :" + word);
+        System.out.println("Enter your name :");
+        String word1 = scanner.next();
+        System.out.println("Enter your name:" + word1);
+
+"C:\Program Files\Java\jdk-20\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.3\lib\idea_rt.jar=56622:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Natalia\Lesson\out\production\Lesson Main
+Please enter your number: 20
+Square of entered number is: 400
+Are you 40 years old?
+true
+You are 40 years old:true
+What is your name? :true
+Enter your name :
+Natalia
